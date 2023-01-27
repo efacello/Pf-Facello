@@ -161,11 +161,69 @@ p{
   margin-top: 50px;
   text-align: center;
 }
-.contenedor-columnas{
-  width: 100%;
-  margin: auto;
-  margin-bottom: 50px;
-  box-sizing: border-box;
+.img-flexibility{
+  background-image: url(/images/flexibilidad_horaria_mx.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+.desc-flexibility h2{
+  text-align: center;
+  text-decoration: none;
+}
+.desc-flexibility p{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(73, 2, 67);
+  margin-top: 30px;
+}
+.img-plan{
+  background-image: url(/images/elaborar-plan-de-nutricion.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+}
+.desc-plan h2{
+  text-align: center;
+  text-decoration: none;
+}
+.desc-plan p{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(73, 2, 67);
+  margin-top: 5px;
+}
+.img-follow{
+  background-image: url(/images/Screenshot_20230118_162414_Instagram.jpg);
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+}
+.desc-follow h2{
+  text-align: center;
+  text-decoration: none;
+}
+.desc-follow p{
+  text-align: center;
+  font-size: 20px;
+  color: rgb(73, 2, 67);
+  margin-top: 10px;
+}
+.img-analysis{
+  background-image: url(/images/PASOS-ALIMENTOS.png);
+  background-size: cover;
+  background-position: right;
+  height: 300px;
+}
+.desc-analysis h2{
+  text-align: center;
+  text-decoration: none;
+}
+.desc-analysis p{
+  text-align: center;
+  font-size: 22px;
+  color: rgb(73, 2, 67);
+  margin-top: 15px; 
 }
 .columnas3{
   width: 33.333%;
@@ -265,57 +323,6 @@ p{
   font-weight: bold;
   color: rgb(94, 57, 91);
   border-bottom: 2px;
-}
-.pie-pagina{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 15px 10px;
-  text-align: center;
-}
-.pie-pagina .grupo1 small{
-  font-size: 15px;
-}
-.redes{
-    position: fixed;
-    top: 200px;
-    z-index: 100;
-    left: 0;
-}
-#facebook a{
-    background: #3b5998;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    width: 55px;
-    transition: all .4s ease;
-}
-#facebook a:hover{
-    background: rgb(238, 101, 170);
-    padding: 10px 40px;
-}
-#instagram a{
-    background: #3f729b;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    width: 55px;
-    transition: all .4s ease;
-}
-#instagram a:hover{
-    background: rgb(238, 101, 170);
-    padding: 10px 40px;
-}
-#whatsapp a{
-    background: #43d854;
-    padding: 10px 20px;
-    color: white;
-    text-decoration: none;
-    width: 55px;
-    transition: all .4s ease;
-}
-#whatsapp a:hover{
-    background: rgb(238, 101, 170);
-    padding: 10px 40px;
 }
 .dos-columnas{
     margin-top: 50px;
