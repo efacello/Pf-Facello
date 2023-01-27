@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background: rgb(243, 29, 118);
+    height: 90px;
+}
+body{
+    background-color: rgb(216, 166, 216);
+}
+.ancho{
+    width: 80%;
+    height: 90px;
+    margin: auto;
+}
+.logo{
+    width:35%;
+    background: rgb(243, 29, 118);
+    height: 90px;
+    float: left;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.logo p a {
+    color: rgb(73, 2, 67);
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: raleway;
+}
+nav{
+    width: 65%;
+    height: 60px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ol li {
+    display: inline;
+}
+nav ol a li {
+    color: rgb(73, 2, 67);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: raleway;
+}
+nav ol a li:hover{
+    color: rgb(230, 7, 211);
+}
+@font-face{
+    font-family: raleway;
+    src:url(fonts/Raleway-Regular.ttf);
+}
+.container{
+    width: 90%;
+    margin: 100px auto;
+}
+.container-faq .title-faq{
+    text-align: center;
+    text-decoration:underline;
+    margin-bottom: 20px;
+}
+.container-faq .item-faq{
+    margin-bottom: 20px;
+}
+.container-faq .item-faq .question{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: plum;
+    padding: 10px 20px 20px 90px;
+    transition: .4s;
+}
+.container-faq .item-faq .question span{
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 2rem;
+    opacity: .3;
+}
+.container-faq .item-faq .answer{
+    margin-bottom: 10px;
+    position: relative;
+    padding: 0 20px 0 80px;
+    transition: .4s;
+}
+.container-faq .item-faq .answer p{
+    font-size: 1.2rem;
+}
+.container-faq .item-faq .answer span{
+    position: absolute;
+    left: 20px;
+    font-size: 2rem;
+    top: -10px;
+    opacity: .6;
+}
+*{
+  box-sizing: border-box;
+}
+h1, h5, h6 {
+    color: black;
+    font-family: raleway;
+    letter-spacing: 1px;
+}
+h2{
+  font-size: 26px;
+  color: rgb(83, 10, 83);
+  text-align: center;
+}
+h3{
+    font-family: serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(73, 2, 67);
+}
+h4{
+  margin-top: 15px;
+  font-size: 16px;
+}
+p{
+  color: rgb(21, 91, 221);
+  font-family: serif;
+  font-size: 15px;
+}
+.wap{
+  width: 90%;
+  margin: auto;
+}
+.servicios{
+  margin-top: 50px;
+  text-align: center;
+}
+.contenedor-columnas{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+.columnas3{
+  width: 33.333%;
+  float: left;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.columnas3 img{
+  width: 100%;
+}
+.columnas4{
+  width: 33%;
+  float: left;
+  padding: 25px 25px;
+}
+.banner1{
+  width: 100%;
+  background: rgb(180, 118, 180);
+  clear: both;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+.banner1:hover{
+  background: rgb(243, 29, 118);
+  transition: 0.4s;
+}
+.banner1 h3{
+  color: rgb(73, 2, 67);
+  font-size: 32px;
+}
+.banner1 a{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(73, 2, 67);
+  border-bottom: 2px;
+}
+.columnas3 lord-icon{
+  float: left;
+  padding-right: 10px;
+}
+.columnas3 p{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.banner2{
+  margin-top: 50px;
+  margin-bottom: 5%;
+  background: url(/images/salad-2068217_640.jpg);
+  float: left;
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.banner2 h3{
+  color: rgb(248, 246, 248);
+  font-size: 32px;
+  height: 100%;
+  padding-top: 6%;
+  padding: 15px 10px;
+}
+.banner2 a{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(248, 246, 248);
+  border-bottom: 2px;
+}
+.banner3{
+  margin-top: 50px;
+  margin-bottom: 5%;
+  background: url(/images/flax-seed-1274944_640.jpg);
+  float: left;
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.banner3 h3{
+  color: rgb(225, 233, 240);
+  font-size: 32px;
+  height: 100%;
+  padding-top: 6%;
+  padding: 15px 10px;
+}
+.banner3 a{
+  margin-left: 20px;
+  font-weight: bold;
+  color: rgb(94, 57, 91);
+  border-bottom: 2px;
+}
+.pie-pagina{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 15px 10px;
+  text-align: center;
+}
+.pie-pagina .grupo1 small{
+  font-size: 15px;
+}
+.redes{
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+#facebook a{
+    background: #3b5998;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease;
+}
+#facebook a:hover{
+    background: rgb(238, 101, 170);
+    padding: 10px 40px;
+}
+#instagram a{
+    background: #3f729b;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease;
+}
+#instagram a:hover{
+    background: rgb(238, 101, 170);
+    padding: 10px 40px;
+}
+#whatsapp a{
+    background: #43d854;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    width: 55px;
+    transition: all .4s ease;
+}
+#whatsapp a:hover{
+    background: rgb(238, 101, 170);
+    padding: 10px 40px;
+}
+.dos-columnas{
+    margin-top: 50px;
+}
+.formulario{
+    float: left;
+    width: 50%;
+    margin-top: auto;
+    color: #999;
+}
+.caja-1{
+    width: 250px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+.caja-2{
+    width: 550px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+}
+.correr{
+    margin: 20px;
+    padding: 10px;
+}
+.contactar-a{
+    width: 81%;
+    font-size: 15px;
+    box-shadow: whitesmoke;
+}
