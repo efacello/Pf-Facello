@@ -1,0 +1,24 @@
+{
+  "name": "efacello",
+  "version": "1.0.0",
+  "description": "ultima pre entrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch css/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efacello/PreEntrega2-Facello.git"
+  },
+  "author": "eliana facello",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efacello/PreEntrega2-Facello/issues"
+  },
+  "homepage": "https://github.com/efacello/PreEntrega2-Facello#readme",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
