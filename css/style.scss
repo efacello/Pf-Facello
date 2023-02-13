@@ -1,0 +1,62 @@
+@import "_vars";
+@import "_nav";
+@import "_form";
+@import "_footer";
+@import "_info";
+
+@font-face {
+	font-family: raleway;
+	src: url(fonts/Raleway-Regular.ttf);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: $background-color_3;
+	display: grid;
+	min-height: 100vh;
+	grid-template-rows: auto, 1fr, auto;
+}
+h1 {
+	color: $color_3;
+	font-family: $font-family_1 !important;
+	letter-spacing: 1px;
+}
+h5 {
+	color: $color_3;
+	font-family: $font-family_1 !important;
+	letter-spacing: 1px;
+}
+h6 {
+	color: $color_3;
+	font-family: $font-family_1 !important;
+	letter-spacing: 1px;
+}
+h2 {
+	font-size: 26px;
+	color: $color_4;
+	margin: 0;
+	font-family: $font-family_1 !important;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-align: center;
+	text-decoration: underline;
+}
+h3 {
+	font-family: $font-family_2;
+	font-size: 20px;
+	font-weight: bold;
+	color: $color_5;
+}
+h4 {
+	margin-top: 10px;
+	margin-bottom: 5;
+	font-size: 16px;
+}
+p {
+	color: $color_6;
+	font-family: $font-family_1 !important;
+	font-size: 15px;
+}

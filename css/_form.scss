@@ -1,0 +1,98 @@
+.formulario {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+	font-family: $font-family_1 !important;
+}
+.contact-wrapper {
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+	>* {
+		padding: 1em;
+	}
+}
+.contact-form {
+	background: rgb(236, 190, 236);
+	form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		.block {
+			grid-column: 1/3;
+		}
+		label {
+			display: block;
+		}
+		p {
+			margin: 0;
+			padding: 1em;
+			font-size: 20px;
+			color: $color_1;
+		}
+		button {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			resize: none;
+			color: $color_10;
+			border-bottom: 1px solid rgb(87, 9, 80);
+			background: rgb(73, 2, 67);
+			border: 0;
+			text-transform: uppercase;
+			padding: 1em;
+			&:hover {
+				background: rgb(173, 66, 173);
+				color: $color_10;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+			&:focus {
+				background: rgb(173, 66, 173);
+				color: $color_10;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+		}
+		input {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			resize: none;
+			color: $color_10;
+			border-bottom: 1px solid rgb(87, 9, 80);
+		}
+		textarea {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			resize: none;
+			color: $color_10;
+			border-bottom: 1px solid rgb(87, 9, 80);
+		}
+	}
+}
+.contact-info {
+	background: rgb(235, 176, 235);
+	h3 {
+		text-align: center;
+		margin: 0 0 1rem 0;
+	}
+	ul {
+		text-align: center;
+		margin: 0 0 1rem 0;
+		list-style: none;
+		padding: 0;
+		li {
+			padding: .3em;
+		}
+	}
+	p {
+		text-align: center;
+		margin: 0 0 1rem 0;
+	}
+}

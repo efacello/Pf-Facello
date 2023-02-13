@@ -1,0 +1,29 @@
+.navbar {
+	background-color: $background-color_1;
+}
+.navbar-brand {
+	color: $color_1;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: $font-family_1 !important;
+}
+.navbar-toggler {
+	background-color: $background-color_2;
+	i {
+		color: $color_2;
+		font-size: 30px;
+	}
+}
+.nav-link {
+	color: $color_1;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-family: $font-family_1 !important;
+	&:hover {
+		color: $color_2;
+	}
+}
