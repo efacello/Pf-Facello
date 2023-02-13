@@ -369,7 +369,7 @@
   border-bottom: 2px;
 }
 
-.banner2 {
+.banner2, .banner3-3 {
   margin-top: 50px;
   margin-bottom: 5%;
   background: url(/images/salad-2068217_640.jpg);
@@ -381,44 +381,32 @@
   background-attachment: fixed;
   text-align: center;
 }
-.banner2 h3 {
+.banner2 h3, .banner3-3 h3 {
   color: rgb(248, 246, 248);
   font-size: 32px;
   height: 100%;
   padding-top: 6%;
   padding: 15px 10px;
 }
-.banner2 a {
+.banner2 a, .banner3-3 a {
   margin-left: 20px;
   font-weight: bold;
   color: rgb(248, 246, 248);
   border-bottom: 2px;
 }
 
-.banner3 {
-  margin-top: 50px;
-  margin-bottom: 5%;
+.banner3-3 {
   background: url(/images/flax-seed-1274944_640.jpg);
-  float: left;
-  width: 100%;
-  height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
-.banner3 h3 {
+.banner3-3 h3 {
   color: rgb(225, 233, 240);
-  font-size: 32px;
-  height: 100%;
-  padding-top: 6%;
-  padding: 15px 10px;
 }
-.banner3 a {
-  margin-left: 20px;
-  font-weight: bold;
+.banner3-3 a {
   color: rgb(94, 57, 91);
-  border-bottom: 2px;
 }
 
 .dos-columnas {
@@ -488,4 +476,6 @@ p {
   color: rgb(29, 36, 135);
   font-family: raleway !important;
   font-size: 15px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -195,29 +195,18 @@
 		border-bottom: 2px;
 	}
 }
-.banner3 {
-	margin-top: 50px;
-	margin-bottom: 5%;
+.banner3-3 {
+	@extend .banner2;
 	background: url(/images/flax-seed-1274944_640.jpg);
-	float: left;
-	width: 100%;
-	height: 250px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	text-align: center;
 	h3 {
 		color: $color_8;
-		font-size: 32px;
-		height: 100%;
-		padding-top: 6%;
-		padding: 15px 10px;
 	}
 	a {
-		margin-left: 20px;
-		font-weight: bold;
 		color: $color_9;
-		border-bottom: 2px;
 	}
 }
 .dos-columnas {
