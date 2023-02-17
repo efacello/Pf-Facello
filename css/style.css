@@ -7,7 +7,7 @@
   font-size: 25px;
   font-weight: bold;
   letter-spacing: 1px;
-  font-family: raleway !important;
+  font-family: port;
 }
 
 .navbar-toggler {
@@ -25,7 +25,7 @@
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
-  font-family: raleway !important;
+  font-family: shantell;
 }
 .nav-link:hover {
   color: rgb(216, 166, 216);
@@ -33,10 +33,11 @@
 
 .formulario {
   max-width: 1170px;
+  min-width: 320;
   margin-left: auto;
   margin-right: auto;
   padding: 1.5em;
-  font-family: raleway !important;
+  font-family: balsamiq;
 }
 
 .contact-wrapper {
@@ -194,53 +195,55 @@
     text-align: left;
   }
 }
-.container {
-  margin: 20px;
+@media (min-width: 700px) {
+  .container-fluid {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 20px auto;
+  }
+  .container-faq .title-faq {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: martel;
+    margin-bottom: 20px;
+  }
+  .container-faq .item-faq {
+    margin-bottom: 20px;
+  }
+  .container-faq .item-faq .question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(212, 174, 212);
+    padding: 10px 20px 20px 90px;
+    transition: 0.4s;
+  }
+  .container-faq .item-faq .question span {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+    font-size: 2rem;
+    opacity: 0.3;
+  }
+  .container-faq .item-faq .answer {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 0 20px 0 80px;
+    transition: 0.4s;
+  }
+  .container-faq .item-faq .answer p {
+    font-size: 1.2rem;
+  }
+  .container-faq .item-faq .answer span {
+    position: absolute;
+    left: 20px;
+    font-size: 2rem;
+    top: -10px;
+    opacity: 0.6;
+  }
 }
-
-.container-faq .title-faq {
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-family: raleway !important;
-  margin-bottom: 20px;
-}
-.container-faq .item-faq {
-  margin-bottom: 20px;
-}
-.container-faq .item-faq .question {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(212, 174, 212);
-  padding: 10px 20px 20px 90px;
-  transition: 0.4s;
-}
-.container-faq .item-faq .question span {
-  position: absolute;
-  left: 20px;
-  bottom: 10px;
-  font-size: 2rem;
-  opacity: 0.3;
-}
-.container-faq .item-faq .answer {
-  margin-bottom: 10px;
-  position: relative;
-  padding: 0 20px 0 80px;
-  transition: 0.4s;
-}
-.container-faq .item-faq .answer p {
-  font-size: 1.2rem;
-}
-.container-faq .item-faq .answer span {
-  position: absolute;
-  left: 20px;
-  font-size: 2rem;
-  top: -10px;
-  opacity: 0.6;
-}
-
 .wap {
   width: 90%;
   margin: auto;
@@ -252,33 +255,37 @@
 }
 
 .img-flexibility {
-  background-image: url(/images/flexibilidad_horaria_mx.jpg);
+  background-image: url(../images/flexibilidad_horaria_mx.jpg);
   background-size: cover;
   background-position: center;
+  border-radius: 10px;
   height: 300px;
 }
 
 .desc-flexibility h2 {
   text-align: center;
   text-decoration: none;
+  padding-top: 1rem;
 }
 .desc-flexibility p {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(73, 2, 67);
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .img-plan {
-  background-image: url(/images/elaborar-plan-de-nutricion.jpg);
+  background-image: url(../images/elaborar-plan-de-nutricion.jpg);
   background-size: cover;
   background-position: right;
-  height: 300px;
+  border-radius: 10px;
+  height: 470px;
 }
 
 .desc-plan h2 {
   text-align: center;
   text-decoration: none;
+  padding-top: 1rem;
 }
 .desc-plan p {
   text-align: center;
@@ -288,15 +295,17 @@
 }
 
 .img-follow {
-  background-image: url(/images/Screenshot_20230118_162414_Instagram.jpg);
+  background-image: url(../images/Screenshot_20230118_162414_Instagram.jpg);
   background-size: cover;
   background-position: right;
-  height: 300px;
+  border-radius: 10px;
+  height: 450px;
 }
 
 .desc-follow h2 {
   text-align: center;
   text-decoration: none;
+  padding-top: 1rem;
 }
 .desc-follow p {
   text-align: center;
@@ -306,15 +315,17 @@
 }
 
 .img-analysis {
-  background-image: url(/images/PASOS-ALIMENTOS.png);
+  background-image: url(../images/PASOS-ALIMENTOS.png);
   background-size: cover;
   background-position: right;
-  height: 300px;
+  border-radius: 10px;
+  height: 490px;
 }
 
 .desc-analysis h2 {
   text-align: center;
   text-decoration: none;
+  padding-top: 1rem;
 }
 .desc-analysis p {
   text-align: center;
@@ -323,21 +334,31 @@
   margin-top: 15px;
 }
 
-.columnas3 {
+#galeria .col-lg-4 {
+  display: flex;
+  padding: 20px;
+}
+
+#galeria img {
+  width: 100%;
+  height: 250px;
+}
+
+.columnas4 {
   width: 33.333%;
   float: left;
   padding: 20px 20px;
   box-sizing: border-box;
   margin: auto;
 }
-.columnas3 img {
+.columnas4 img {
   width: 100%;
 }
-.columnas3 lord-icon {
+.columnas4 lord-icon {
   float: left;
   padding-right: 10px;
 }
-.columnas3 p {
+.columnas4 p {
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -372,7 +393,7 @@
 .banner2, .banner3-3 {
   margin-top: 50px;
   margin-bottom: 5%;
-  background: url(/images/salad-2068217_640.jpg);
+  background: url(../images/salad-2068217_640.jpg);
   float: left;
   width: 100%;
   height: 250px;
@@ -396,17 +417,17 @@
 }
 
 .banner3-3 {
-  background: url(/images/flax-seed-1274944_640.jpg);
+  background: url(../images/flax-seed-1274944_640.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
 }
 .banner3-3 h3 {
-  color: rgb(225, 233, 240);
+  color: rgb(248, 246, 248);
 }
 .banner3-3 a {
-  color: rgb(94, 57, 91);
+  color: rgb(248, 246, 248);
 }
 
 .dos-columnas {
@@ -414,8 +435,20 @@
 }
 
 @font-face {
-  font-family: raleway;
-  src: url(fonts/Raleway-Regular.ttf);
+  font-family: balsamiq;
+  src: url(/fonts/BalsamiqSans-Regular.ttf);
+}
+@font-face {
+  font-family: martel;
+  src: url(/fonts/MartelSans-Regular.ttf);
+}
+@font-face {
+  font-family: port;
+  src: url(/fonts/PortLligatSans-Regular.ttf);
+}
+@font-face {
+  font-family: shantell;
+  src: url(/fonts/ShantellSans-Regular.ttf);
 }
 * {
   margin: 0;
@@ -432,19 +465,19 @@ body {
 
 h1 {
   color: black;
-  font-family: raleway !important;
+  font-family: shantell;
   letter-spacing: 1px;
 }
 
 h5 {
   color: black;
-  font-family: raleway !important;
+  font-family: martel;
   letter-spacing: 1px;
 }
 
 h6 {
   color: black;
-  font-family: raleway !important;
+  font-family: balsamiq;
   letter-spacing: 1px;
 }
 
@@ -452,18 +485,20 @@ h2 {
   font-size: 26px;
   color: rgb(83, 10, 83);
   margin: 0;
-  font-family: raleway !important;
+  font-family: balsamiq;
   font-weight: bold;
   letter-spacing: 1px;
   text-align: center;
   text-decoration: underline;
+  padding-bottom: 1rem;
 }
 
 h3 {
-  font-family: serif;
+  font-family: martel;
   font-size: 20px;
   font-weight: bold;
   color: rgb(73, 2, 67);
+  padding-top: 1rem;
 }
 
 h4 {
@@ -474,7 +509,7 @@ h4 {
 
 p {
   color: rgb(29, 36, 135);
-  font-family: raleway !important;
+  font-family: shantell;
   font-size: 15px;
 }
 

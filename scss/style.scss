@@ -5,8 +5,20 @@
 @import "_info";
 
 @font-face {
-	font-family: raleway;
-	src: url(fonts/Raleway-Regular.ttf);
+	font-family: balsamiq;
+	src: url(/fonts/BalsamiqSans-Regular.ttf);
+}
+@font-face {
+	font-family: martel;
+	src: url(/fonts/MartelSans-Regular.ttf);
+}
+@font-face {
+	font-family: port;
+	src: url(/fonts/PortLligatSans-Regular.ttf);
+}
+@font-face {
+	font-family: shantell;
+	src: url(/fonts/ShantellSans-Regular.ttf);
 }
 * {
 	margin: 0;
@@ -21,34 +33,36 @@ body {
 }
 h1 {
 	color: $color_3;
-	font-family: $font-family_1 !important;
+	font-family: $font-family_4;
 	letter-spacing: 1px;
 }
 h5 {
 	color: $color_3;
-	font-family: $font-family_1 !important;
+	font-family: $font-family_2;
 	letter-spacing: 1px;
 }
 h6 {
 	color: $color_3;
-	font-family: $font-family_1 !important;
+	font-family: $font-family_1;
 	letter-spacing: 1px;
 }
 h2 {
 	font-size: 26px;
 	color: $color_4;
 	margin: 0;
-	font-family: $font-family_1 !important;
+	font-family: $font-family_1;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-align: center;
 	text-decoration: underline;
+	padding-bottom: 1rem;
 }
 h3 {
 	font-family: $font-family_2;
 	font-size: 20px;
 	font-weight: bold;
 	color: $color_5;
+	padding-top: 1rem;
 }
 h4 {
 	margin-top: 10px;
@@ -57,6 +71,6 @@ h4 {
 }
 p {
 	color: $color_6;
-	font-family: $font-family_1 !important;
+	font-family: $font-family_4;
 	font-size: 15px;
 }

@@ -9,7 +9,7 @@
 			text-align: center;
 			text-transform: uppercase;
 			text-decoration: underline;
-			font-family: $font-family_1 !important;
+			font-family: $font-family_2;
 			margin-bottom: 20px;
 		}
 		.item-faq {
@@ -61,30 +61,34 @@
 	background-image: url(../images/flexibilidad_horaria_mx.jpg);
 	background-size: cover;
 	background-position: center;
+	border-radius: 10px;
 	height: 300px;
 }
 .desc-flexibility {
 	h2 {
 		text-align: center;
 		text-decoration: none;
+		padding-top: 1rem;
 	}
 	p {
 		text-align: center;
-		font-size: 25px;
+		font-size: 20px;
 		color: $color_5;
-		margin-top: 30px;
+		margin-top: 10px;
 	}
 }
 .img-plan {
 	background-image: url(../images/elaborar-plan-de-nutricion.jpg);
 	background-size: cover;
 	background-position: right;
-	height: 300px;
+	border-radius: 10px;
+	height: 470px;
 }
 .desc-plan {
 	h2 {
 		text-align: center;
 		text-decoration: none;
+		padding-top: 1rem;
 	}
 	p {
 		text-align: center;
@@ -97,12 +101,14 @@
 	background-image: url(../images/Screenshot_20230118_162414_Instagram.jpg);
 	background-size: cover;
 	background-position: right;
-	height: 300px;
+	border-radius: 10px;
+	height: 450px;
 }
 .desc-follow {
 	h2 {
 		text-align: center;
 		text-decoration: none;
+		padding-top: 1rem;
 	}
 	p {
 		text-align: center;
@@ -115,12 +121,14 @@
 	background-image: url(../images/PASOS-ALIMENTOS.png);
 	background-size: cover;
 	background-position: right;
-	height: 300px;
+	border-radius: 10px;
+	height: 490px;
 }
 .desc-analysis {
 	h2 {
 		text-align: center;
 		text-decoration: none;
+		padding-top: 1rem;
 	}
 	p {
 		text-align: center;
@@ -129,7 +137,15 @@
 		margin-top: 15px;
 	}
 }
-.columnas3 {
+#galeria .col-lg-4 {
+	display: flex;
+	padding: 20px;
+}
+#galeria img {
+	width: 100%;
+	height: 250px;
+}
+.columnas4 {
 	width: 33.333%;
 	float: left;
 	padding: 20px 20px;
@@ -206,10 +222,10 @@
 	background-attachment: fixed;
 	text-align: center;
 	h3 {
-		color: $color_8;
+		color: $color_7;
 	}
 	a {
-		color: $color_9;
+		color: $color_7;
 	}
 }
 .dos-columnas {
