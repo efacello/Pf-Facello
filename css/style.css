@@ -414,8 +414,20 @@
 }
 
 @font-face {
-  font-family: raleway;
-  src: url(fonts/Raleway-Regular.ttf);
+  font-family: balsamiq;
+  src: url(/fonts/BalsamiqSans-Regular.ttf);
+}
+@font-face {
+  font-family: martel;
+  src: url(/fonts/MartelSans-Regular.ttf);
+}
+@font-face {
+  font-family: port;
+  src: url(/fonts/PortLligatSans-Regular.ttf);
+}
+@font-face {
+  font-family: shantell;
+  src: url(/fonts/ShantellSans-Regular.ttf);
 }
 * {
   margin: 0;
