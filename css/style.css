@@ -217,6 +217,7 @@
   justify-content: center;
   padding: 0.5rem 0;
   color: rgb(27, 2, 75);
+  font-family: shantell;
   font-size: 1.6rem;
   font-weight: 500;
   width: 100%;
@@ -224,7 +225,6 @@
 }
 
 label::before {
-  content: "+";
   margin-right: 0.5rem;
   font-size: 1.5rem;
   font-weight: 500;
@@ -254,9 +254,10 @@ input[type=radio] {
 }
 
 .content p {
-  font-size: 1.2rem;
-  color: rgb(83, 10, 83);
-  padding: 1.5rem;
+  font-family: shantell;
+  font-size: 1rem;
+  color: rgb(73, 2, 67);
+  padding: 1rem;
 }
 
 .wap {
@@ -267,6 +268,14 @@ input[type=radio] {
 .servicios {
   margin-top: 50px;
   text-align: center;
+}
+
+.row {
+  padding: 2rem;
+}
+
+.container-fluid {
+  padding: 1rem 0;
 }
 
 .img-flexibility {
@@ -432,7 +441,7 @@ input[type=radio] {
 }
 
 .banner3-3 {
-  background: url(../images/flax-seed-1274944_640.jpg);
+  background: url(../images/flax-seed-1274944_641.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -505,7 +514,7 @@ h2 {
   letter-spacing: 1px;
   text-align: center;
   text-decoration: underline;
-  padding-bottom: 1rem;
+  padding: 0 1rem;
 }
 
 h3 {

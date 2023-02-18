@@ -19,13 +19,13 @@
 	justify-content: center;
 	padding: 0.5rem 0;
 	color: $color_1;
+	font-family: $font-family_4;
 	font-size: 1.6rem;
 	font-weight: 500;
 	width: 100%;
 	cursor: pointer;
 }
 label::before {
-	content: "+";
 	margin-right: 0.5rem;
 	font-size: 1.5rem;
 	font-weight: 500;
@@ -50,9 +50,10 @@ input[type="radio"]{
 	content: "-";
 }
 .content p {
-	font-size: 1.2rem;
-	color: $color_4;
-	padding: 1.5rem;
+	font-family: $font-family_4;
+	font-size: 1rem;
+	color: $color_5;
+	padding: 1rem;
 }
 .wap {
 	width: 90%;
@@ -61,6 +62,12 @@ input[type="radio"]{
 .servicios {
 	margin-top: 50px;
 	text-align: center;
+}
+.row {
+	padding: 2rem;
+}
+.container-fluid {
+	padding: 1rem 0;
 }
 .img-flexibility {
 	background-image: url(../images/flexibilidad_horaria_mx.jpg);
@@ -221,7 +228,7 @@ input[type="radio"]{
 }
 .banner3-3 {
 	@extend .banner2;
-	background: url(../images/flax-seed-1274944_640.jpg);
+	background: url(../images/flax-seed-1274944_641.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
