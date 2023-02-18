@@ -195,55 +195,70 @@
     text-align: left;
   }
 }
-@media (min-width: 700px) {
-  .container-fluid {
-    max-width: 1000px;
-    min-width: 320px;
-    margin: 20px auto;
-  }
-  .container-faq .title-faq {
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-family: martel;
-    margin-bottom: 20px;
-  }
-  .container-faq .item-faq {
-    margin-bottom: 20px;
-  }
-  .container-faq .item-faq .question {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(212, 174, 212);
-    padding: 10px 20px 20px 90px;
-    transition: 0.4s;
-  }
-  .container-faq .item-faq .question span {
-    position: absolute;
-    left: 20px;
-    bottom: 10px;
-    font-size: 2rem;
-    opacity: 0.3;
-  }
-  .container-faq .item-faq .answer {
-    margin-bottom: 10px;
-    position: relative;
-    padding: 0 20px 0 80px;
-    transition: 0.4s;
-  }
-  .container-faq .item-faq .answer p {
-    font-size: 1.2rem;
-  }
-  .container-faq .item-faq .answer span {
-    position: absolute;
-    left: 20px;
-    font-size: 2rem;
-    top: -10px;
-    opacity: 0.6;
-  }
+.accordion {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 1rem;
 }
+
+.accordion li {
+  list-style: none;
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+  background-color: rgb(216, 166, 216);
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.accordion li label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  color: rgb(27, 2, 75);
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 100%;
+  cursor: pointer;
+}
+
+label::before {
+  content: "+";
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.accordion .content {
+  background-color: rgb(212, 174, 212);
+  padding: 0 1rem;
+  line-height: 1.5rem;
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 650ms;
+}
+
+.accordion input[type=radio]:checked + label + .content {
+  max-height: 10rem;
+  padding: 1rem 1rem 2rem;
+}
+
+.accordion input[type=radio]:checked + label::before {
+  content: "-";
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: rgb(83, 10, 83);
+  padding: 1.5rem;
+}
+
 .wap {
   width: 90%;
   margin: auto;
